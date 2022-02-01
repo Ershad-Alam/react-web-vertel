@@ -1,0 +1,39 @@
+.header{
+    background: var(--color-primary);
+    font-size: 16px;
+    padding: 15px 0px;
+}
+.header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+.header a:hover{
+    color: var(--color-green);
+}
+.header a.is-active{
+    color: red !important;
+}
+.header a:first-child{
+    padding-left: 0;
+}
+/* banner */
+.bg_banner {
+    background: url(../src/images/Banner.png) center top no-repeat;
+    background-size: cover;
+    min-height: 450px;
+}
+.txt_bannerHead {
+    font-size: 56px;
+    margin: 0;
+    line-height: 50px;
+    font-weight: 400;
+    margin-top: 91px;
+    color: var(--color-green);
+}
+.txt_bannerParagraph {
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 25px 0;
+    color: var(--color-white);
+}

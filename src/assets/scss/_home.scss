@@ -1,0 +1,53 @@
+.home__about__section{
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    h1{
+        font-size: 35px;
+        color: var(--color-primary);
+        font-weight: 400;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.bg_services {
+    background-image: url("./images/bg_services.png");
+    padding-bottom: 50px;
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+}
+.bg_services .ser_top{
+    margin-top: 130px;
+}
+.bg_services a{
+    color: var(--color-white);
+}
+.service_panel {
+    border-radius: 22px;
+    background-color: rgba(13, 52, 91, 0.8);
+    min-height: 270px;
+    margin: 8px 0px;
+    padding: 16px;
+    color: var(--color-white);
+}
+.home-service-icon svg {
+    width: 70px;
+    height: 70px;
+   object-fit: cover;
+}
+.service_panel span {
+    display: block;
+    font-size: 28px;
+    margin: 18px 0px 10px;
+}
+.service_panel p {
+    display: block;
+    line-height: 22px;
+    margin: 0px;
+}
